@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Website</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/7e60c5d8c5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="py-5 header">
+      <div class="container">
+        <div class="d-flex justify-content-between pb-5">
+          <h1 class="text-danger fst-italic">Films Blog</h1>
+          <div class="d-flex">
+            <select
+              class="form-select form-select-sm me-3"
+              aria-label="Default select example"
+            >
+              <option selected>English</option>
+              <option value="1">German</option>
+              <option value="2">French</option>
+              <option value="3">Spanish</option>
+            </select>
+            <button type="button" class="btn btn-danger btn-sm w-75">
+              Login
+            </button>
+          </div>
+        </div>
+        <div class="text-white d-flex flex-column align-items-center py-5">
+          <h2 class="fw-bolder mb-5 fs-1">Unlimited movies, series and more</h2>
+          <p class="fw-medium fs-4 mb-5">
+            Enjoy Film Blog wherever you want. Cancel anytime. Ready to get
+            started? Enter your email address to start or reactivate your
+            membership.
+          </p>
+        </div>
+        <div class="d-flex justify-content-center gap-3 pb-5">
+          <input
+            type="email"
+            class="form-control form-control-sm w-50"
+            placeholder="E-Mail-Adress"
+          />
+          <button type="submit" class="btn btn-danger btn-lg">
+            Get started <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class="header-bottom py-5 text-white">
+      <div class="container">
+        <div
+          class="d-flex justify-content-center align-items-center py-5 gap-3"
+        >
+          <img
+            src="images/popcorn.png"
+            width="100px"
+            class="img-fluid"
+            alt=""
+          />
+          <div>
+            <p class="mb-1">The whole film blog fun from just €4.99.</p>
+            <p class="mb-1">
+              The standard subscription with advertising makes it possible.
+            </p>
+            <a class="mb-0 fw-bolder" href="#"
+              >More info <i class="fa-solid fa-chevron-right ms-2 fw-bolder"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black py-5 border-bottom border-secondary border-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-2 text-white align-self-center">
+            <h1 class="fw-bolder display-4">On your TV</h1>
+            <p class="fw-bold fs-3">
+              Stream with Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </p>
+          </div>
+          <div class="col-md-6 mb-2">
+            <img src="images/tv.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black py-5 border-bottom border-secondary border-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-2">
+            <img src="images/device-pile.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md-6 mb-2 text-white align-self-center">
+            <h1 class="fw-bolder display-4">On all devices</h1>
+            <p class="fw-bold fs-3">
+              You can watch unlimited films and series on your smartphone,
+              tablet, laptop and TV.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black py-5 border-bottom border-secondary border-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-2 text-white align-self-center">
+            <h1 class="fw-bolder display-4">Create profiles for children</h1>
+            <p class="fw-bold fs-3">
+              Send children on adventures with their favorite characters in a
+              kids' area specially tailored to their needs, included in your
+              membership at no extra cost.
+            </p>
+          </div>
+          <div class="col-md-6 mb-2">
+            <img src="images/kids.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black py-5 border-bottom border-secondary border-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-2">
+            <img src="images/mobile-0819.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md-6 mb-2 text-white align-self-center">
+            <h1 class="fw-bolder display-4">
+              Download series and watch offline
+            </h1>
+            <p class="fw-bold fs-3">
+              No matter where: on a plane, on a train or even in a submarine…
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black py-5 border-bottom border-secondary border-4">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h1 class="display-6 fw-bolder text-white">
+            Frequently Asked Questions
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="accordion shadow-lg accordion-secondary" id="accordian">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What content can I watch on Films Blog?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-body collapse">
+                  <p class="fw-bold">
+                    Film Blog offers a huge selection of feature films,
+                    documentaries, series, anime, award-winning Netflix
+                    originals and more. Watch as much as you want, as often as
+                    you want, whenever you want.
+                  </p>
+                  <a href="#" class="fw-bold"
+                    >Take a look at a small selection of our titles...</a
+                  >
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapsetwo"
+                  >
+                    What is Films Blog?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-body collapse">
+                  <p class="fw-bold">
+                    Films Blog is ​​a streaming service that allows members to
+                    access a diverse range of award-winning series, films,
+                    documentaries and more on thousands of internet-connected
+                    devices. You can watch as much content as you want, anytime,
+                    anywhere - for a low monthly fee. There is always something
+                    new to discover and new series and films are added every
+                    week.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapsethree"
+                  >
+                    How much does Films Blog cost?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-body collapse">
+                  <p class="fw-bold">
+                    For a flat monthly fee, you can enjoy Films Blog on your
+                    smartphone, tablet, smart TV, laptop or streaming device.
+                    Subscriptions cost €4.99 to €19.99 per month. No extra
+                    costs, no contracts.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapsefour"
+                  >
+                    Where can I view content?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-body collapse">
+                  <p class="fw-bold">
+                    You can watch our content anywhere, anytime. Log in to the
+                    website at films-blog.com with your Films Blog account to
+                    watch content directly on your computer. You can also log in
+                    on an internet-connected device with the Films Blog app
+                    installed, such as smart TVs, smartphones, tablets,
+                    streaming players and game consoles. In addition, you can
+                    also download your favorite series via the iOS or Android
+                    app. With downloads, you can enjoy Films Blog anywhere, even
+                    without an internet connection. Take Films Blog with you
+                    wherever you go.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="true"
+                    aria-controls="collapsefive"
+                  >
+                    How can I cancel?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-body collapse">
+                  <p class="fw-bold">
+                    With Films-Blog you are flexible. With us there are no
+                    annoying contracts or obligations. You can easily cancel
+                    your account online with just two clicks. There are no
+                    cancellation fees, the membership can be started or stopped
+                    at any time.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="true"
+                    aria-controls="collapsesix"
+                  >
+                    Is film blogging good for children?
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-body collapse">
+                  <p class="fw-bold">
+                    Films-Blog's Kids section is included in your membership and
+                    gives parents control over their children's entertainment
+                    experience, allowing them to enjoy family-friendly series
+                    and films in a space tailored to their needs. Kids' profiles
+                    come with PIN-protected parental controls that allow you to
+                    limit the age rating of titles that are displayed and block
+                    certain titles from children.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="py-5">
+              <p class="text-white mb-3 fw-bolder fs-6">
+                Ready to get started? Enter your email address to start or
+                reactivate your membership.
+              </p>
+              <div class="d-flex justify-content-center gap-3 pb-5">
+                <input
+                  type="email"
+                  class="form-control form-control-sm w-50 input-mail"
+                  placeholder="E-Mail-Adress"
+                />
+                <button type="submit" class="btn btn-danger btn-lg">
+                  Get started <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <h6 class="text-secondary">Questions? Just call: 0800-000-9677</h6>
+        <div class="row">
+          <div class="col-md-3 mb-2">
+            <div class="d-flex flex-column gap-2">
+              <a class="text-secondary" href="#"
+                >Frequently Asked Questions (FAQ)</a
+              >
+              <a class="text-secondary" href="#">Media Center</a>
+              <a class="text-secondary" href="#">Redeem gift cards</a>
+              <a class="text-secondary" href="#">Data protection</a>
+              <a class="text-secondary" href="#">Speed ​​Test</a>
+              <a class="text-secondary" href="#">Advertising choices</a>
+              <select
+                class="form-select form-select-sm me-3 w-50 mt-2"
+                aria-label="Default select example"
+              >
+                <option selected>English</option>
+                <option value="1">German</option>
+                <option value="2">French</option>
+                <option value="3">Spanish</option>
+              </select>
+              <p class="text-secondary mt-2">Films-Blog Europe</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-2">
+            <div class="d-flex flex-column gap-2">
+              <a class="text-secondary" href="#">Cancel membership</a>
+              <a class="text-secondary" href="#">Investor relations</a>
+              <a class="text-secondary" href="#">Buy gift cards</a>
+              <a class="text-secondary" href="#">Cookie settings</a>
+              <a class="text-secondary" href="#">Legal guarantee</a>
+            </div>
+          </div>
+          <div class="col-md-3 mb-2">
+            <div class="d-flex flex-column gap-2">
+              <a class="text-secondary" href="#">Cancel membership</a>
+              <a class="text-secondary" href="#">Careers</a>
+              <a class="text-secondary" href="#">How to watch Netflix</a>
+              <a class="text-secondary" href="#">Imprint</a>
+              <a class="text-secondary" href="#">Legal notice</a>
+            </div>
+          </div>
+          <div class="col-md-3 mb-2">
+            <div class="d-flex flex-column gap-2">
+              <a class="text-secondary" href="#">Account</a>
+              <a class="text-secondary" href="#">Films-Blog Shop</a>
+              <a class="text-secondary" href="#">Terms of Use</a>
+              <a class="text-secondary" href="#">Contact</a>
+              <a class="text-secondary" href="#">Only on Films-Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
